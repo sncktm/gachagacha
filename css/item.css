@@ -1,0 +1,124 @@
+.slide28{
+    display: flex;
+    justify-content: center;
+}
+
+.slide28 ul{
+    position: relative;
+    
+}
+.slide28 li{
+    position: absolute;
+    /* width: 100%; */
+    list-style: none; /*リストの点を削除*/
+}
+.div28{
+    height: 400px;
+}
+h2{
+    margin: auto;
+    width: 50%;
+    color: #FFF;
+    font-size: 100px;
+    position: relative;
+    top: 90px;
+    left: 0.4%;
+}
+.div28 img{
+    border-radius: 100px; /*角を丸くする*/
+    margin: 10px;
+    border: 15px solid #fff;
+    position: relative;
+    right: 15px;
+
+}
+
+/*絞り込みボタン*/
+.sibori{
+    position: fixed;
+    top: 65px;
+    right: 10px;
+    cursor: pointer;
+    background-color: #555;
+    color: #FFF;border-style: none;
+    border-radius: 5px; /*角を丸くする*/
+}
+
+
+/*絞り込み*/
+
+.item_header{
+    position:fixed;
+	top:0;
+	bottom:0;
+	width:250px;
+	margin-left:-250px;
+	background:#FFE8EC;
+}
+
+.item_navi{
+    list-style: none; /*リストの点を削除*/
+}
+
+.item_navi button{
+    font-size: 20px;
+    border-style: none;
+    background-color: #FFE8EC;
+    
+}
+
+.item_navi div{
+    border-bottom: #fdb4bf solid 2px;
+}
+
+.item_btn{
+    
+    border-radius: 10px; /*角を丸くする*/
+    margin-top: 15px;
+    padding: 10px 10px 5px 10px;
+    cursor: pointer;
+    
+}
+
+
+.item_hover{
+    display: none;
+    list-style: none; /*リストの点を削除*/
+}
+.item_hover button{
+    margin: 0%;
+}
+.item_hover button:hover{
+    color: #ff6ebb;
+}
+
+
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0%;
+}
+.item ul{
+    display: flex;
+}
+.item li{
+    background-color: #FFF;
+    list-style-type: none; /*リストマーカーを非表示*/
+    margin: 10px;
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px; /*角を丸くする*/
+    border-color: #FFE8EC;
+    
+}
+
+
+/*フッター*/
+footer{
+    margin-top: 80px;
+}
+
+

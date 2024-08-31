@@ -1,0 +1,83 @@
+#form{
+    height: 100%;
+}
+
+.slide28{
+    display: flex;
+    justify-content: center;
+}
+
+.slide28 ul{
+    position: relative;
+    
+}
+.slide28 li{
+    position: absolute;
+    list-style: none; /*リストの点を削除*/
+}
+.div28{
+    height: 400px;
+}
+.div28 h2{
+    margin: 0px;
+    width: 50%;
+    color: #FFF;
+    font-size: 100px;
+    position: relative;
+    top: 90px;
+    left: 25%;
+}
+.div28 img{
+    border-radius: 100px; /*角を丸くする*/
+    margin: 10px;
+    border: 15px solid #fff;
+    position: relative;
+    right: 15px;
+
+}
+
+/*--フォーム--*/
+form{
+    width: 500px;
+    margin: auto;
+}
+form div{
+    margin-bottom: 25px;
+}
+label{
+    font-size: 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea{
+    border: 1px #ff8ac8 solid;
+    border-radius: 10px; /*角を丸くする*/
+    font-size: 20px;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    max-width: 250px;
+}
+textarea{
+    width: 100%;
+    max-width: 480px;
+    height: 6rem;
+}
+input[type="submit"]{ 
+    border: none;
+    color: #fff;
+    background-color: #ff8ac8;
+    margin: 18px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px; /*角を丸くする*/
+    cursor: pointer;
+    line-height: 1;
+}
+.button:hover{
+    background-color: #ff6ebb; /*カーソルがのった時に色を濃くする*/
+}
+
+.back{
+    margin-bottom: 20px;
+}

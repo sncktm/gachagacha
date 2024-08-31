@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UHF-8">
+        <title>趣味 ガチャガチャ</title>
+        <meta name="description" content="おすすめのガチャガチャを紹介">
+
+        <!--フォント-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="css/style.css"> 
+        <link rel="stylesheet" href="css/form.css"> 
+
+        <!--script-->
+        <script src="js/jquery-3.6.4.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/form.js"></script>
+    </head>
+
+    <!--トップページ-->
+    <body>
+        <header class="page-header">
+            <!--ナビゲーションメニュー-->
+            <div class="openbtn"><span></span><span></span><span></span></div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">TOP</a></li>
+                    <li><a href="item.html">ITEM</a></li>
+                    <li><a href="form.html">FORM</a></li>
+                </ul>
+            </nav>
+            <div class="circle-bg"></div>
+        </header>
+
+        <div id="form">
+            <!--ページタイトル-->
+            <main id="home" class="big-bg">
+                
+                <div class="div28">
+                    <ul class="slide28">
+                        <li><img src="/img/gacha3.jpg" height="300px" width="1300px" alt=""></li>
+                        <li><img src="/img/gacha2.jpg" height="300px" width="1300px" alt=""></li>
+                    </ul>
+                    <h2>FORM</h2>
+                </div>
+
+                <div class="back">
+                    <form action="#">
+                        <div>
+                            <label for="name">名前</label><br>
+                            <input type="text" id="name" name="your-name">
+                        </div>
+                        <div>
+                            <label for="email">メールアドレス</label><br>
+                            <input type="email" id="email" name="your-email">
+                        </div>
+                        <div>
+                            <label for="message">お問合せ内容</label><br>
+                            <textarea name="your-message" id="message"></textarea>
+                        </div>
+        
+                        <input type="submit" class="button" value="送信">
+                    </form>
+                </div> 
+                
+            </main>
+
+            <!--フッター-->
+            <footer>
+                <p><small>&copy; 2023 KOTOMI SHINCHU</small></p> <!--&copy; は©の記述-->
+            </footer>
+        </div>
+    </body>
+</html>
